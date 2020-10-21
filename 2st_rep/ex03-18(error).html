@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>형식을 가진 텍스트 입력</title>
+  </head>
+  <body>
+    <script>
+      const Searching = Search.prototype;
+      function Search() {
+        this.keyord = document.querySelector('input[name = "search"]');
+        this.engine = document.querySelector('.SelectSearch');
+        this.button = document.querySelector('.type-button');
+        this.form = document.querySelector('.search');
+
+        this.Engine();
+      }
+      Searching.Engine = function () {
+        this.form.addEventListener('submit', (e) => {
+          e.preventDefault();
+
+          let engine = this.engine.value;
+          let keyword = this.keyword.value;
+
+          if (engine === 'google') {
+            location.href = 'https://www.google.co.kr/search?q=' + keyword;
+          } else if (engine === 'naver') {
+            location.href =
+              'https://search.naver.com/search.naver?query=' + keyword;
+          }
+        });
+      };
+      new Search();
+    </script>
+    <h3>회원 정보를 입력해주세요.</h3>
+    <hr />
+    <form>
+      email : <input type="email" placeholder="id@host" /><br />
+      홈페이지 : <input type="url" placeholder="http://" /><br />
+      전화번호 : <input type="tel" placeholder="010-1234-5678" />
+      <input type="submit" value="확인" /><br /><br />
+      <hr />
+    </form>
+    <form class="search">
+      <select class="SelectSearch" name="WhichSearch">
+        <option id="google" value="google">Google</option>
+        <option id="naver" value="naver">naver</option>
+      </select>
+      <input
+        class="keyword"
+        type="text"
+        name="search"
+        maxlength="255"
+        value=""
+        autocomplete="off"
+        placeholder="검색어"
+      />
+      <button class="type-button" type="submit" name="click" value="">
+        Search
+      </button>
+    </form>
+  </body>
+</html>

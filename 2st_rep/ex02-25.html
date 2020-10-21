@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>비디오 삽입</title>
+  </head>
+  <body>
+    <h3>비디오 삽입</h3>
+    <hr />
+    <video src="media/bear.mp4" width="320" height="240" controls>
+      브라우저가 video 태그를 지원하지 않습니다.
+    </video>
+    <video src="media/error.mp4" width="400" height="300" controls autoplay>
+      Your browser does not support the video tag. please check your browser.
+    </video>
+    <script>
+      setTimeout(function AlertTest() {
+        alert(
+          ' The second video file is missing or invalid.\n 2019675069 하지웅'
+        );
+      }, 1000);
+    </script>
+  </body>
+</html>

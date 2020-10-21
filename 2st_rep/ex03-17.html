@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>편리한 숫자 입력</title>
+  </head>
+  <body>
+    <h3>홈 제어 시스템 - 온도 조절</h3>
+    <hr />
+    <form>
+      지속시간 (0.0~10.0시간) :
+      <input type="number" min="0.0" max="10.0" step="0.5" /><br /><br />
+      온도 설정 : 0&deg;
+      <input type="range" min="0" max="50" list="temperatures" />50&deg;
+      <datalist id="temperatures">
+        <option value="10" label="Very Low"></option>
+        <option value="20" label="Low"></option>
+        <option value="30" label="Medium"></option>
+        <option value="40" label="High"></option>
+        <option value="50" label="Very High"></option>
+      </datalist>
+    </form>
+    <hr />
+    <p>2019675069 하지웅</p>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  background-color: yellow;
+}
+
+nav {
+  width: 30%;
+  height: 80%;
+  float: left;
+  background: orange;
+}
+
+section {
+  width: 70%;
+  height: 80%;
+  float: left;
+  background-color: lightblue;
+}
+
+footer {
+  width: 100%;
+  height: 10%;
+  background-color: plum;
+  clear: left;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
