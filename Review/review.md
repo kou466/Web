@@ -39,13 +39,21 @@
    <meta> <img> <ol> <ul> <li> <table> <audio>
    ```
     (a) HTML5 페이지의 필수 태그들은 무엇인가? `<!DOCTYPE html>, <html>, <head>, <title>, <body>`
+
     (b) 단락을 나눌 때 사용되는 태그는 무엇인가? `<p>`
+
     (c) 블록 태그에 속하는 태그들을 기술하라.`<p>, <h1>, <div>, <ul>`
+
     (d) 인라인 태그에 속하는 태그들을 기술하라. `<strong>, <a>, <img>, <span>`
+
     (e) HTML 페이지 내에 HTML 페이지를 삽입할 때 사용되는 태그는 무엇인가? `<iframe>`
+
     (f) 하이퍼링크(hyperlink)를 지정할 때 사용하는 태그와 속성은 무엇인가? `<a>`
+
     (g) 한 HTML 페이지 내의 특정 위치로 이동할 때 사용하는 태그 및 속성은 무엇인가? `<a id="move">, <a href="#move"> (속성 id사용, a태그 #id 이용)`
+
     (h) JavaScript 코드의 시작을 표시하는 코드는 무엇인가? `<script>`
+
     (i) 사용자가 HTML로 표현한 Enter 키 및 blank space 를 그대로 적용하여 포맷하는 데 사용되는 태그는 무엇인가? `<pre>`
 
 5. 다음 HTML 코드의 의미를 설명하라.
@@ -58,13 +66,18 @@
     - height="이미지 높이"
   
 6. HTML5의 시맨틱 태그들을 써라. 또한, 이러한 태크들을 사용한 웹은 어떤 장점을 갖는가?
+
    `<header>, <nav>, <section>, <article>, <aside>, <footer>`
+
    `문서의 구조와 의미를 브라우저와 개발자 모두에게 명확하게 설명함.`
-7. `<form>` 태그에 대한 적절한 것을 보기에서 골라 다음 글의 괄호를 채워라. <br>
+
+7. `<form>` 태그에 대한 적절한 것을 보기에서 골라 다음 글의 괄호를 채워라.
+
     > `<form>` 태그의 (__name__) 속성은 웹 서버 응용 프로그램의 이름을 지정하며, (__method__) 는 폼 데이터를 웹 서버로 전송할 때 데이터 전송 방식을 결정한다. 이 방식에는 (__GET__)과 (__POST__)이 있다. <br>
    >보기: name, post, target, action, value, submit, get, method
 
 8. 다음 조건을 위한 `<form>` 을 작성하라.
+
     (1) 스핀 버튼으로 0에서 10까지 0.5 단위로 숫자를 입력받음.
     ```HTML
     <form>
@@ -79,10 +92,14 @@
     ```
 
 9.  `<span>`Hello!`</span>` 에 의해 출력되는 글자의 색이 blue 이고, 폰트의 크기가 20px 인 CSS3 스타일 시트를 작성하라.
+
     `<span style="color:blue; font-size:20px;">Hello!</span>`
 
-10. 다음에서 `<div>` 아래의 `<strong>`에 있는 글자가 blue 가 되도록 하는 태그 셀렉터를 2가지 방법으로 정의하라 (즉, 출력되는 학습 내용 의 글자는 blue 가 됨) <br>
-    `<div> 2학기 <strong> 학습 내용</strong> </div>`
+10. 다음에서 `<div>` 아래의 `<strong>`에 있는 글자가 blue 가 되도록 하는 태그 셀렉터를 2가지 방법으로 정의하라 (즉, 출력되는 학습 내용 의 글자는 blue 가 됨)
+
+    ```HTML
+    <div> 2학기 <strong> 학습 내용</strong> </div>
+    ```
     ```HTML
     <head>
     <style>
@@ -98,6 +115,7 @@
     ```
 
 11. CSS3에서 빨간색 성분 136, 초록색 성분 43, 파란색 성분 226으로 구성된 색
+
     <p style="color:rgb(136,43,226)"> Color </p>
 
     -> __혼합된 보라색(bluevioler)__
@@ -125,6 +143,7 @@
     지역변수: y
 
 15. JavaScript의 3/2+"px" 의 연산 결과는 무엇인가?
+
     -> __1.5px__
 
 16. 다음과 같은 JavaScript코드가 실행될 때와 동일한 결과를 갖도록, JavaScript를 사용하지 않고 오직 HTML코드 만으로 표현하라.
@@ -140,7 +159,7 @@
     </script>
     </body>
     ```
-    ->
+    __->__
     ```HTML
     <body>
         <span style="font-size: 10px;">10px</span>
@@ -195,7 +214,8 @@
     }
     ```
 
-20. Java Script의 객체 (Key:Value) 형태, Value 부분에 함수표현도 가능 
+20. Java Script의 객체 (Key:Value) 형태, Value 부분에 함수표현도 가능
+
     *객체 표현 : new 를 적용(예제 7-9) , 리터럴 표기법(7-10), 생성자 형태(7-11)*
     ```JavaScript
     //예제 7-9
