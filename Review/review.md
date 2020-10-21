@@ -9,7 +9,7 @@
       - 웹 클라이언트의 요청을 받아 웹 문서 전송
       - 웹 서버로 작동하도록 하는 소프트웨어 실행
       - 웹 문서, 이미지, 동영상 등의 데이터 저장 관리
-      - 
+
 2. 웹 페이지 구성의 기본 3대 요소인 Markup 언어, Style 표현, 프로그래밍 언어의 기능 설명
     - Markup 언어: 웹페이지의 구조와 내용 
       - ex. HTML
@@ -17,7 +17,7 @@
       - ex. CSS(Cascading Style Sheet)
     - 프로그래밍 언어: 웹 페이지의 행동 및 응용 프로그램
       - ex. JavaScript
-      - 
+
 3. URL 주소 http://www.oracle.com:80/technetwork/java/index.html
 
    (a) 서버의 ip 주소를 찾을 때 사용되는 정보
@@ -195,7 +195,7 @@
     }
     ```
 
-20. Java Script의 객체 (Key:Value) 형태, Value 부분에 함수표현도 가능
+20. Java Script의 객체 (Key:Value) 형태, Value 부분에 함수표현도 가능 
     *객체 표현 : new 를 적용(예제 7-9) , 리터럴 표기법(7-10), 생성자 형태(7-11)*
     ```JavaScript
     //예제 7-9
