@@ -93,7 +93,9 @@
 
 9.  `<span>`Hello!`</span>` 에 의해 출력되는 글자의 색이 blue 이고, 폰트의 크기가 20px 인 CSS3 스타일 시트를 작성하라.
 
-    `<span style="color:blue; font-size:20px;">Hello!</span>`
+    ```css
+    <span style="color:blue; font-size:20px;">Hello!</span>
+    ```
 
 10. 다음에서 `<div>` 아래의 `<strong>`에 있는 글자가 blue 가 되도록 하는 태그 셀렉터를 2가지 방법으로 정의하라 (즉, 출력되는 학습 내용 의 글자는 blue 가 됨)
 
